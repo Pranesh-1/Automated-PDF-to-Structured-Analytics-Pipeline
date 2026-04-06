@@ -2,17 +2,17 @@
 
 A professional-grade, automated pipeline designed to transform unstructured PDF job descriptions into clean, structured, and validated datasets. Leveraging the power of **Groq (Llama-3.3-70b)** and **FastAPI**, this tool provides high-speed extraction with a modern **Human-in-the-Loop** validation interface.
 
-## 🌟 Key Features
+## Key Features
 
-- **⚡ Sub-Second Extraction**: Powered by Groq's high-performance AI models via LiteLLM.
-- **📋 Intelligent Schema Mapping**: Automatically identifies Job Titles, Companies, Salaries, Skills, and Responsibilities.
-- **✨ Glassmorphic UI**: A modern dashboard for reviewing extracted data side-by-side with the source document.
-- **🛠️ Data Validation**: Built-in Pydantic validation to ensure high-fidelity datasets (Emails, Lists, etc.).
-- **📊 Export Ready**: One-click export to CSV for downstream analytics and reporting.
+- **Sub-Second Extraction**: Powered by Groq's high-performance AI models via LiteLLM.
+- **Intelligent Schema Mapping**: Automatically identifies Job Titles, Companies, Salaries, Skills, and Responsibilities.
+- **Glassmorphic UI**: A modern dashboard for reviewing extracted data side-by-side with the source document.
+- **Data Validation**: Built-in Pydantic validation to ensure high-fidelity datasets (Emails, Lists, etc.).
+- **Export Ready**: One-click export to CSV for downstream analytics and reporting.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: [FastAPI](https://fastapi.tiangolo.com/) (Python)
 - **AI Engine**: [Groq](https://groq.com/) (Llama-3.3-70b-versatile) via [LiteLLM](https://github.com/BerriAI/litellm)
@@ -22,7 +22,7 @@ A professional-grade, automated pipeline designed to transform unstructured PDF 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 - Python 3.9+
@@ -49,7 +49,7 @@ Open **http://localhost:8000** in your browser to start extracting.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── engine/                # Core Extraction Logic
@@ -66,11 +66,11 @@ Open **http://localhost:8000** in your browser to start extracting.
 
 ---
 
-## 🛡️ License
+## License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 📬 Contact
+## Contact
 Shahrukh - [shahrukh@pantherainfotech.com](mailto:shahrukh@pantherainfotech.com)  
 Admin - [admin@pantherainfotech.com](mailto:admin@pantherainfotech.com)

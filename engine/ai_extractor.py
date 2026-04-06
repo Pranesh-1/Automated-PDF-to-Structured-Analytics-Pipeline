@@ -54,7 +54,7 @@ def get_job_description_from_text(text: str, model: str = "groq/llama-3.3-70b-ve
 if __name__ == "__main__":
     # Test extraction with the Panthera JD snippet
     sample_text = """
-    Job Title: Intern – JavaScript, Data Validation & AI-Assisted Development
+    Job Title: Intern - JavaScript, Data Validation & AI-Assisted Development
     Location: Remote / Work From Home
     Experience: Final-year student / 0–1 year experience
     Compensation: Competitive internship stipend

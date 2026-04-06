@@ -17,7 +17,7 @@ class JobDescriptionSchema(BaseModel):
     class Config:
         json_schema_extra = {
             "example": {
-                "job_title": "Intern – JavaScript, Data Validation & AI-Assisted Development",
+                "job_title": "Intern - JavaScript, Data Validation & AI-Assisted Development",
                 "company_name": "Panthera Infotech",
                 "location": "Remote / Work From Home",
                 "experience_level": "Final-year student / 0–1 year experience",
