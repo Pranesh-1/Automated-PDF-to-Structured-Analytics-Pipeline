@@ -15,19 +15,19 @@ This project provides a robust pipeline for:
 
 ## Key Features & Capabilities
 
-### 🛡️ Data Validation & Quality Checks
+### Data Validation & Quality Checks
 Every extraction is subject to a rigorous validation layer. The system performs:
 - **Dataset Integrity Checks**: Verifies schema consistency and data types.
 - **Pattern Matching**: Regex-based validation for emails, currency, and date formats.
 - **AI-Assisted Quality Scoring**: Estimates confidence levels for every extracted field to flag potential manual reviews.
 
-### 📜 Structured Specifications
+### Structured Specifications
 Maintain and organize datasets using strictly defined specifications:
 - **Standardized Formats**: Export data in perfectly formatted JSON, CSV, and Excel.
 - **Enterprise Ready**: Designed for seamless integration with HRIS or BI tools.
 - **Clear Documentation**: Every data point is mapped to a structured specification for traceability.
 
-### 🤖 Automation & Developer Tools
+### Automation & Developer Tools
 Built for modern developers and analysts:
 - **JavaScript/TypeScript Automation Scripts**: The pipeline generates ready-to-use scripts to automate common data cleaning, ingestion, and mapping tasks.
 - **AI-Assisted Development**: Optimized for interoperability with AI development environments and modern IDEs.
